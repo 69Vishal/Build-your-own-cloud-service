@@ -16,10 +16,10 @@ def token_generator(length):
 
 token = token_generator(6)
 #connect to Database
-db = mysql.connector.connect(host='localhost', user='root', password='pass', database='whatever')
+db = mysql.connector.connect(host='localhost', user='root', password='pass', database='server')
 def update_db(final_path):
     global token
-    command = "INSERT INTO file(access_key, access_path) VALUES('{}', '{}');".format(token, final_path)             
+    command = "INSERT INTO file(access_key, access_path) VALUES('{}', '{}');".format(token, final_path)   # change to 'file' to your custom table name          
     cursor = db.cursor()
     cursor.execute(command)
     db.commit()
