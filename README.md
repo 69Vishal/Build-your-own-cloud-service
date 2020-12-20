@@ -1,4 +1,7 @@
+# Building your own Cloud Service using python
 
+This project is all about building your own cloud service With just an internet connection and a laptop using Python3 and MySQL
+#
 ## Where do I start?
 You should start by setting up your won server, you have a lot of option here either make your own server at home using Raspberry Pi 3 or 4(i recommend Raspberry pi 4 4GB variant) doing this you can have freedom of unlimited storage and you can set up in parallel as many as you want. If you want to do this for free then you can set up a server on Amazon AWS EC2 and install an ubuntu server on it.
 
