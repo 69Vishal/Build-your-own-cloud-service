@@ -18,6 +18,7 @@ you have to enter this line after
 	Require all granted
 </Directory>
 ```
+and run a simple command `sudo a2enmod cgi`, 
 What this line of code does s that it enables CGI(Common Gateway Interface) in file `/var/www/Html/` and will allow us to smoothly run `.py` on our Apache Web Server, If you are still getting `Internal Server Error`, check `/var/log/apache2/error.log` file for errors.
 
 ## How do I set up my Web server?
