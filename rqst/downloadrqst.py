@@ -8,7 +8,7 @@ import cgi, cgitb
 from os import path
 import mysql.connector
 
-db = mysql.connector.connect(host='localhost', user='root', password='Vishal@19', database='server')
+db = mysql.connector.connect(host='localhost', user='root', password='pass', database='server')
 form = cgi.FieldStorage()
 rqst_id = form['rqst_id'].value
 try:
