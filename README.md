@@ -21,3 +21,6 @@ you have to enter this line after
 	Require all granted
 </Directory>
 ```
+What this line of code does s that it enables CGI(Comman Gateway Interface) in file `/var/www/html/` and will allow us to smoothly run `.py` on our Apache Web Server, If you are still getting `Internal Server Error`, check `/var/log/apache2/error.log` file for errors.
+## How do I set up my Web server?
+Once you are done indtalling and setting up your server you have to upload all the files to  `/var/www/html/` and chnage change permission so that anyone can execute through this command `$ sudo chmod 775 -R folder`(remove -R if you want to change permission for a single file and type your file name with extension ehre filder is written)		
