@@ -40,4 +40,4 @@ No, this example is just for learning purposes and i don't think you will make a
 
 
 ## Example
-[Check out this Example](www.vishal.uno)
+[Check out this Example](http://vishal.uno)
