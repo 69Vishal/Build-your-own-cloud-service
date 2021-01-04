@@ -38,3 +38,6 @@ change your database here if you have named it differently.
 ## Is client data safe?
 No, this example is just for learning purposes and i don't think you will make a entire enterpise out of it. but to an extent it is secure, with just a line of in `.htacess` you can make it a bit secure so that if someone try to access the the folder where files are stored, server will deny to connect.
 
+
+## Example
+[Check out this Example](www.vishal.uno)
