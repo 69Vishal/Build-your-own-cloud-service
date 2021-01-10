@@ -41,3 +41,10 @@ No, this example is just for learning purposes and i don't think you will make a
 
 ## Example
 [Check out this Example](http://vishal.uno)
+
+# Donate
+* PayPal -> balharav3@gmail.com
+* UPI -> 19vishalindustries-1@okhdfcbank
+
+Thank You
+
